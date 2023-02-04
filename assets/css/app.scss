@@ -1,6 +1,9 @@
 /* This file is for your main application css. */
 @import "./phoenix.css";
-
+.form-group {
+  position: relative;
+  margin-bottom: 25px;
+}
 /* Alerts and form errors */
 .alert {
   padding: 15px;
@@ -32,5 +35,6 @@
 .invalid-feedback {
   color: #a94442;
   display: block;
-  margin: -1rem 0 2rem;
+  text-transform: capitalize;
+  margin: 0rem 0 2rem;
 }
