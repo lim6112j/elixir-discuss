@@ -1,0 +1,6 @@
+<h2>topics</h2>
+<ul>
+ <%= for topic <- @topics do %>
+ <li> <%= topic.title %></li>
+ <% end %>
+</ul>
